@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="./Style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="left">
+        <h1>Sortable List</h1>
+        <ul class="list-right">
+            <li class="card" draggable="true">
+                <img src="./Images/Group 1.svg" alt="list icon">
+                <p>this is a test 1</p>
+            </li>
+            <li class="card" draggable="true">
+                <img src="./Images/Group 1.svg" alt="list icon">
+                <p>this is a test 2</p>
+            </li>
+            <li class="card" draggable="true">
+                <img src="./Images/Group 1.svg" alt="list icon">
+                <p>this is a test 3</p>
+            </li>
+        </ul>
+      </div>
+
+      <div id="right">
+        <h1>Sortable List</h1>
+        <ul class="list-left">
+            
+        </ul>
+      </div>
+    </div>
+    <script src="./JS/App.js"></script>
+  </body>
+</html>
